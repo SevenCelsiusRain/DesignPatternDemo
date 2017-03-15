@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					23820A0A1E792E9100E5E832 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ4YA27V26;
 						ProvisioningStyle = Automatic;
 					};
 					23820A231E792E9100E5E832 = {
@@ -422,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ4YA27V26;
 				INFOPLIST_FILE = DesignPatternDemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.DesignPatternDemon;
@@ -433,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ4YA27V26;
 				INFOPLIST_FILE = DesignPatternDemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Demon.DesignPatternDemon;
