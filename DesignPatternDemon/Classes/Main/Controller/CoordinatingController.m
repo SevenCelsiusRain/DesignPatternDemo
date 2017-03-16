@@ -1,24 +1,23 @@
 //
-//  ViewController.m
+//  CoordinatingController.m
 //  DesignPatternDemon
 //
-//  Created by wanc on 2017/3/15.
+//  Created by wanc on 2017/3/16.
 //  Copyright © 2017年 zdsoft. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CoordinatingController.h"
 
-@interface ViewController ()
+@interface CoordinatingController ()
 
 @end
 
-@implementation ViewController
+@implementation CoordinatingController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

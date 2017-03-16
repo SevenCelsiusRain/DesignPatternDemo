@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23427DE71E7A2A0D00AA5D5D /* CanvasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23427DE51E7A2A0D00AA5D5D /* CanvasController.m */; };
+		23427DE81E7A2A0D00AA5D5D /* CanvasController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23427DE61E7A2A0D00AA5D5D /* CanvasController.xib */; };
+		23427DEC1E7A2A2200AA5D5D /* PaletteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23427DEA1E7A2A2200AA5D5D /* PaletteController.m */; };
+		23427DED1E7A2A2200AA5D5D /* PaletteController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23427DEB1E7A2A2200AA5D5D /* PaletteController.xib */; };
+		23427DF11E7A2A3D00AA5D5D /* ThumbnailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23427DEF1E7A2A3D00AA5D5D /* ThumbnailController.m */; };
+		23427DF21E7A2A3D00AA5D5D /* ThumbnailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23427DF01E7A2A3D00AA5D5D /* ThumbnailController.xib */; };
+		23427DF61E7A2AC500AA5D5D /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23427DF41E7A2AC500AA5D5D /* CoordinatingController.m */; };
+		23427DF71E7A2AC500AA5D5D /* CoordinatingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23427DF51E7A2AC500AA5D5D /* CoordinatingController.xib */; };
+		23427DFC1E7A6DE000AA5D5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23427DFB1E7A6DE000AA5D5D /* AppDelegate.m */; };
 		23820A101E792E9100E5E832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23820A0F1E792E9100E5E832 /* main.m */; };
-		23820A131E792E9100E5E832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23820A121E792E9100E5E832 /* AppDelegate.m */; };
-		23820A161E792E9100E5E832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23820A151E792E9100E5E832 /* ViewController.m */; };
 		23820A191E792E9100E5E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23820A171E792E9100E5E832 /* Main.storyboard */; };
 		23820A1B1E792E9100E5E832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23820A1A1E792E9100E5E832 /* Assets.xcassets */; };
 		23820A1E1E792E9100E5E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23820A1C1E792E9100E5E832 /* LaunchScreen.storyboard */; };
@@ -35,12 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23427DE41E7A2A0D00AA5D5D /* CanvasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasController.h; sourceTree = "<group>"; };
+		23427DE51E7A2A0D00AA5D5D /* CanvasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasController.m; sourceTree = "<group>"; };
+		23427DE61E7A2A0D00AA5D5D /* CanvasController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasController.xib; sourceTree = "<group>"; };
+		23427DE91E7A2A2200AA5D5D /* PaletteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteController.h; sourceTree = "<group>"; };
+		23427DEA1E7A2A2200AA5D5D /* PaletteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteController.m; sourceTree = "<group>"; };
+		23427DEB1E7A2A2200AA5D5D /* PaletteController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteController.xib; sourceTree = "<group>"; };
+		23427DEE1E7A2A3D00AA5D5D /* ThumbnailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailController.h; sourceTree = "<group>"; };
+		23427DEF1E7A2A3D00AA5D5D /* ThumbnailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailController.m; sourceTree = "<group>"; };
+		23427DF01E7A2A3D00AA5D5D /* ThumbnailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailController.xib; sourceTree = "<group>"; };
+		23427DF31E7A2AC500AA5D5D /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		23427DF41E7A2AC500AA5D5D /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		23427DF51E7A2AC500AA5D5D /* CoordinatingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoordinatingController.xib; sourceTree = "<group>"; };
+		23427DF81E7A6D8900AA5D5D /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		23427DFA1E7A6DE000AA5D5D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23427DFB1E7A6DE000AA5D5D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23820A0B1E792E9100E5E832 /* DesignPatternDemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternDemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23820A0F1E792E9100E5E832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		23820A111E792E9100E5E832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		23820A121E792E9100E5E832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23820A141E792E9100E5E832 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23820A151E792E9100E5E832 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		23820A181E792E9100E5E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23820A1A1E792E9100E5E832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23820A1D1E792E9100E5E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23427DF91E7A6DE000AA5D5D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				23427DFA1E7A6DE000AA5D5D /* AppDelegate.h */,
+				23427DFB1E7A6DE000AA5D5D /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		23820A021E792E9000E5E832 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +128,7 @@
 		23820A0D1E792E9100E5E832 /* DesignPatternDemon */ = {
 			isa = PBXGroup;
 			children = (
-				23820A111E792E9100E5E832 /* AppDelegate.h */,
-				23820A121E792E9100E5E832 /* AppDelegate.m */,
-				23820A141E792E9100E5E832 /* ViewController.h */,
-				23820A151E792E9100E5E832 /* ViewController.m */,
-				23820A171E792E9100E5E832 /* Main.storyboard */,
-				23820A1A1E792E9100E5E832 /* Assets.xcassets */,
-				23820A1C1E792E9100E5E832 /* LaunchScreen.storyboard */,
-				23820A1F1E792E9100E5E832 /* Info.plist */,
+				23820A411E79397E00E5E832 /* Classes */,
 				23820A0E1E792E9100E5E832 /* Supporting Files */,
 			);
 			path = DesignPatternDemon;
@@ -117,6 +137,10 @@
 		23820A0E1E792E9100E5E832 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23820A171E792E9100E5E832 /* Main.storyboard */,
+				23820A1A1E792E9100E5E832 /* Assets.xcassets */,
+				23820A1C1E792E9100E5E832 /* LaunchScreen.storyboard */,
+				23820A1F1E792E9100E5E832 /* Info.plist */,
 				23820A0F1E792E9100E5E832 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +162,163 @@
 				23820A351E792E9100E5E832 /* Info.plist */,
 			);
 			path = DesignPatternDemonUITests;
+			sourceTree = "<group>";
+		};
+		23820A411E79397E00E5E832 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23820A461E79397E00E5E832 /* Main */,
+				23820A421E79397E00E5E832 /* Canvas */,
+				23820A4D1E79397E00E5E832 /* Palette */,
+				23820A511E79397E00E5E832 /* Thumbnail */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23820A421E79397E00E5E832 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				23820A431E79397E00E5E832 /* Controller */,
+				23820A441E79397E00E5E832 /* Model */,
+				23820A451E79397E00E5E832 /* View */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		23820A431E79397E00E5E832 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23427DE41E7A2A0D00AA5D5D /* CanvasController.h */,
+				23427DE51E7A2A0D00AA5D5D /* CanvasController.m */,
+				23427DE61E7A2A0D00AA5D5D /* CanvasController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23820A441E79397E00E5E832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23820A451E79397E00E5E832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23820A461E79397E00E5E832 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				23427DF91E7A6DE000AA5D5D /* Other */,
+				23820A471E79397E00E5E832 /* Controller */,
+				23820A481E79397E00E5E832 /* Delegate */,
+				23820A4B1E79397E00E5E832 /* Model */,
+				23820A4C1E79397E00E5E832 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		23820A471E79397E00E5E832 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23427DF31E7A2AC500AA5D5D /* CoordinatingController.h */,
+				23427DF41E7A2AC500AA5D5D /* CoordinatingController.m */,
+				23427DF51E7A2AC500AA5D5D /* CoordinatingController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23820A481E79397E00E5E832 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				23427DF81E7A6D8900AA5D5D /* Mark.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		23820A4B1E79397E00E5E832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23820A4C1E79397E00E5E832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23820A4D1E79397E00E5E832 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				23820A4E1E79397E00E5E832 /* Controller */,
+				23820A4F1E79397E00E5E832 /* Model */,
+				23820A501E79397E00E5E832 /* View */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+		23820A4E1E79397E00E5E832 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23427DE91E7A2A2200AA5D5D /* PaletteController.h */,
+				23427DEA1E7A2A2200AA5D5D /* PaletteController.m */,
+				23427DEB1E7A2A2200AA5D5D /* PaletteController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23820A4F1E79397E00E5E832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23820A501E79397E00E5E832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23820A511E79397E00E5E832 /* Thumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				23820A521E79397E00E5E832 /* Controller */,
+				23820A531E79397E00E5E832 /* Model */,
+				23820A541E79397E00E5E832 /* View */,
+			);
+			path = Thumbnail;
+			sourceTree = "<group>";
+		};
+		23820A521E79397E00E5E832 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23427DEE1E7A2A3D00AA5D5D /* ThumbnailController.h */,
+				23427DEF1E7A2A3D00AA5D5D /* ThumbnailController.m */,
+				23427DF01E7A2A3D00AA5D5D /* ThumbnailController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23820A531E79397E00E5E832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23820A541E79397E00E5E832 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +429,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				23820A1E1E792E9100E5E832 /* LaunchScreen.storyboard in Resources */,
+				23427DE81E7A2A0D00AA5D5D /* CanvasController.xib in Resources */,
+				23427DF21E7A2A3D00AA5D5D /* ThumbnailController.xib in Resources */,
+				23427DF71E7A2AC500AA5D5D /* CoordinatingController.xib in Resources */,
 				23820A1B1E792E9100E5E832 /* Assets.xcassets in Resources */,
+				23427DED1E7A2A2200AA5D5D /* PaletteController.xib in Resources */,
 				23820A191E792E9100E5E832 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +459,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23820A161E792E9100E5E832 /* ViewController.m in Sources */,
-				23820A131E792E9100E5E832 /* AppDelegate.m in Sources */,
+				23427DF61E7A2AC500AA5D5D /* CoordinatingController.m in Sources */,
+				23427DEC1E7A2A2200AA5D5D /* PaletteController.m in Sources */,
+				23427DFC1E7A6DE000AA5D5D /* AppDelegate.m in Sources */,
+				23427DF11E7A2A3D00AA5D5D /* ThumbnailController.m in Sources */,
+				23427DE71E7A2A0D00AA5D5D /* CanvasController.m in Sources */,
 				23820A101E792E9100E5E832 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +696,7 @@
 				23820A3A1E792E9100E5E832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23820A3B1E792E9100E5E832 /* Build configuration list for PBXNativeTarget "DesignPatternDemonTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +705,7 @@
 				23820A3D1E792E9100E5E832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23820A3E1E792E9100E5E832 /* Build configuration list for PBXNativeTarget "DesignPatternDemonUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +714,7 @@
 				23820A401E792E9100E5E832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

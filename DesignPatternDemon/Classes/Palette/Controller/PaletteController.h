@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  PaletteController.h
 //  DesignPatternDemon
 //
-//  Created by wanc on 2017/3/15.
+//  Created by wanc on 2017/3/16.
 //  Copyright © 2017年 zdsoft. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PaletteController : UIViewController
 
 @end
-
