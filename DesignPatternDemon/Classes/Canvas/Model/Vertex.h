@@ -1,23 +1,31 @@
 //
-//  Mark.h
+//  Vertex.h
 //  DesignPatternDemon
 //
-//  Created by wanc on 2017/3/16.
+//  Created by wanc on 2017/3/17.
 //  Copyright © 2017年 zdsoft. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "Mark.h"
 
-@protocol Mark <NSObject>
+@interface Vertex : NSObject<Mark, NSCopying>
+{
+    @protected
+    CGPoint _location;
+}
 
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;
 @property (nonatomic, readonly) NSUInteger count;
-@property (nonatomic, readonly) id <Mark>lastChild;
+@property (nonatomic, weak, readonly) id <Mark>lastChild;
 
-- (id)copy;
+- (id)initWithLocation:(CGPoint)location;
+- (void)adddMark:(id<Mark>)mark;
 - (void)removeMark:(id<Mark>)mark;
 - (id<Mark>)childMarkAtIndex:(NSUInteger)index;
+
+- (id)copyWithZone:(NSZone *)zone;
 
 @end

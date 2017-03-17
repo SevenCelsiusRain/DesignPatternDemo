@@ -22,6 +22,7 @@
 		23820A1E1E792E9100E5E832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23820A1C1E792E9100E5E832 /* LaunchScreen.storyboard */; };
 		23820A291E792E9100E5E832 /* DesignPatternDemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23820A281E792E9100E5E832 /* DesignPatternDemonTests.m */; };
 		23820A341E792E9100E5E832 /* DesignPatternDemonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23820A331E792E9100E5E832 /* DesignPatternDemonUITests.m */; };
+		2392642D1E7BD224004899AB /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2392642C1E7BD224004899AB /* Vertex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		23820A2F1E792E9100E5E832 /* DesignPatternDemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternDemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23820A331E792E9100E5E832 /* DesignPatternDemonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternDemonUITests.m; sourceTree = "<group>"; };
 		23820A351E792E9100E5E832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2392642B1E7BD224004899AB /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		2392642C1E7BD224004899AB /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 		23820A441E79397E00E5E832 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2392642B1E7BD224004899AB /* Vertex.h */,
+				2392642C1E7BD224004899AB /* Vertex.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23427DF61E7A2AC500AA5D5D /* CoordinatingController.m in Sources */,
+				2392642D1E7BD224004899AB /* Vertex.m in Sources */,
 				23427DEC1E7A2A2200AA5D5D /* PaletteController.m in Sources */,
 				23427DFC1E7A6DE000AA5D5D /* AppDelegate.m in Sources */,
 				23427DF11E7A2A3D00AA5D5D /* ThumbnailController.m in Sources */,
